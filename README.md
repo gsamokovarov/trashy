@@ -12,7 +12,7 @@ The first thing you wanna do is add the `trashy` gem into your `Gemfile`, like s
 gem "trashy"
 ```
 
-Next introducing a timestamp to the models, so we know when they were "deleted" or trashed as we'll call this operation from now on. The timestamp is our marker, if you will:
+Next, introduce a timestamp to the models, so we know when they were "deleted" or trashed as we'll call this operation from now on. The timestamp is our marker, if you will:
 
 ```
 bundle exec rails g migration AddDeletedAtToUsers deleted_at:timestamp
